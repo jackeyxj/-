@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int score = 0;
+		cout << "请说出你的智商" << endl;
+	cin >> score;
+	cout << "你的智商是："<<score << endl;
+	if (score > 180)
+	{
+		cout << "你真牛逼！" << endl;
+		if (score > 20000)
+		{
+			cout << "sb!!!!" << endl;
+	 }
+		else if (score > 250)
+		{
+			cout << "haaaaaa!" << endl;
+	 }
+		
+	}
+	else if (score>120)
+		cout << "你很一般哦！" << endl;
+	else if  (score < 120)
+		cout << "建议入土！" << endl;
+
+
+
+
+
+	system("pause");
+
+	return 0;
+
+
+
+
+}
