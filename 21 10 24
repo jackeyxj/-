@@ -1,0 +1,22 @@
+#include<iostream>;
+using namespace std;
+#include<ctime>;
+
+int main(){
+	srand((unsigned int)time(NULL));
+	int num = rand()%100;
+	while (num < 100)
+	{
+		cout <<  num << endl;
+		num++;
+	}
+
+
+
+
+
+	system("pause");
+	return 0;
+
+
+}
